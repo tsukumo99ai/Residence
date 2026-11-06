@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>物件比較・全7物件（サニー桜ヶ丘を追加）2026-11-06</title>
+<style>
+  :root{ --ink:#1a2332; --sub:#5a6577; --line:#d7dde6; --accent:#0f766e; --warn:#b45309; --bad:#b91c1c; --good:#047857; --bg:#f7f8fa; --new:#eef6ff; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic UI","Noto Sans JP",sans-serif; color:var(--ink); background:#fff; font-size:19px; line-height:1.65; }
+  main{ max-width:1560px; margin:0 auto; padding:32px 28px 64px; }
+  h1{ font-size:34px; line-height:1.3; margin:0 0 8px; }
+  h2{ font-size:26px; margin:44px 0 14px; padding-bottom:8px; border-bottom:3px solid var(--accent); }
+  h3{ font-size:22px; margin:28px 0 8px; }
+  p, li{ font-size:19px; }
+  .meta{ color:var(--sub); font-size:16px; margin-bottom:20px; }
+  .basis{ background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:18px 22px; }
+  .basis p{ margin:4px 0; font-size:17px; }
+  .cards{ display:grid; grid-template-columns:repeat(auto-fit,minmax(420px,1fr)); gap:18px; margin-top:16px; }
+  .card{ border:2px solid var(--line); border-radius:14px; padding:20px 22px; }
+  .card.new1{ border-color:#2563eb; background:var(--new); }
+  .card.new2{ border-color:#059669; background:#ecfdf5; }
+  .card h3{ margin-top:0; font-size:24px; }
+  .price{ font-size:30px; font-weight:800; }
+  .price small{ font-size:18px; font-weight:600; color:var(--sub); }
+  .tag{ display:inline-block; font-size:15px; font-weight:700; padding:2px 10px; border-radius:999px; background:#e2e8f0; margin-right:6px; }
+  .tag.good{ background:#d1fae5; color:var(--good); }
+  .tag.bad{ background:#fee2e2; color:var(--bad); }
+  .tag.warn{ background:#fef3c7; color:var(--warn); }
+  .scroll{ overflow-x:auto; border:1px solid var(--line); border-radius:12px; margin-top:14px; }
+  table{ border-collapse:separate; border-spacing:0; width:100%; min-width:1420px; font-size:18px; }
+  th, td{ padding:13px 14px; border-bottom:1px solid var(--line); border-right:1px solid var(--line); vertical-align:top; text-align:left; }
+  th:last-child, td:last-child{ border-right:none; }
+  thead th{ background:#0f2e3d; color:#fff; font-size:19px; position:sticky; top:0; z-index:2; }
+  thead th.newcol{ background:#1d4ed8; }
+  thead th.newcol2{ background:#047857; }
+  tbody th{ background:#eef2f7; font-weight:700; min-width:170px; position:sticky; left:0; z-index:1; }
+  tr:last-child td, tr:last-child th{ border-bottom:none; }
+  td.num{ font-weight:700; white-space:nowrap; }
+  .yes{ color:var(--good); font-weight:700; }
+  .no{ color:var(--bad); font-weight:700; }
+  .unk{ color:var(--warn); font-weight:700; }
+  .rank{ width:100%; min-width:900px; }
+  .rank td:first-child{ font-weight:800; text-align:center; width:64px; }
+  .bar{ height:16px; background:#e5e7eb; border-radius:999px; overflow:hidden; min-width:220px; }
+  .bar > div{ height:100%; background:var(--accent); }
+  .note{ font-size:16px; color:var(--sub); }
+  ul{ margin:8px 0 8px 22px; padding:0; }
+  li{ margin:5px 0; }
+  a{ color:#1d4ed8; }
+  .check{ background:#f0fdf9; border:1px solid #99f6e4; border-radius:12px; padding:18px 24px; }
+  .review{ border:2px solid var(--line); border-radius:14px; padding:22px 24px; margin-top:18px; }
+  .review h3{ margin-top:0; font-size:24px; }
+  .big{ display:grid; grid-template-columns:repeat(auto-fit,minmax(360px,1fr)); gap:14px; margin-top:12px; }
+  .big div{ border-radius:10px; padding:14px 16px; font-size:18px; }
+  .big .plus{ background:#ecfdf5; border:1px solid #6ee7b7; }
+  .big .minus{ background:#fef2f2; border:1px solid #fca5a5; }
+  .big strong{ display:block; font-size:16px; margin-bottom:4px; }
+  .final{ background:#0f2e3d; color:#fff; border-radius:14px; padding:24px 28px; margin-top:22px; }
+  .final h3{ color:#fff; margin-top:0; }
+  .final p{ color:#e2e8f0; }
+  @media print{ body{ font-size:15px; } main{ max-width:none; } .scroll{ overflow:visible; } table{ min-width:0; font-size:13px; } .final{ background:#fff; color:var(--ink); border:2px solid var(--ink);} .final p{ color:var(--ink);} .final h3{ color:var(--ink);} }
+  @media (max-width:640px){ body{ font-size:17px; } h1{ font-size:27px; } main{ padding:20px 14px 48px; } .cards{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>物件比較・全7物件</h1>
+  <p class="meta">サニー桜ヶ丘を追加し、メゾン・ド・ソレイユを外した改訂版 ｜ 作成：2026年11月6日 ｜ アルスールとサニーは同日SUUMO個別ページを当日クロールで確認（古いキャッシュ不採用）<br>除外の記録：メゾン・ド・ソレイユ（ふじみ野市鶴ケ舞1）は法人契約ができないため、本人の決定で比較から外しました。以後候補として扱いません。</p>
+
+  <div class="basis">
+    <p><strong>試算の基準（全物件で統一）</strong></p>
+    <p>・ペットは当初飼わない前提。月額・初期費用にペット追加分は含めない　・駐車場は基本額に入れず別掲</p>
+    <p>・月額 ＝ 賃料＋管理費＋掲載で確認できた月額固定費（24時間サポート・保証会社の月額分・入居者倶楽部・保険料・町会費など）</p>
+    <p>・初期費用 ＝ 敷金＋礼金＋仲介手数料＋初期項目＋初回保証料＋前家賃1ヶ月分（月額固定費込み）。日割りは含めない</p>
+  </div>
+
+  <h2>結論</h2>
+  <div class="cards">
+    <div class="card new1">
+      <h3>アルスールふじみ野 105号室（1階） ― 実務の本命</h3>
+      <p class="price">月額 85,000円 <small>／ 初期 約23.4万円＋保険</small></p>
+      <p><span class="tag good">月額 全7件で最安</span><span class="tag good">駅 徒歩4分</span><span class="tag good">オートロック＋エレベーター</span><span class="tag good">都市ガス</span></p>
+      <ul>
+        <li>駅徒歩4分で月85,000円、初期も最安。エスペランサ209より月16,926円、年で約20.3万円安い</li>
+        <li>オートロック、エレベーター、追い焚き（オートバス）、独立洗面所、インターネット無料、都市ガスが全部そろう。玄関ホールもあり、「扉があって外と直接つながっていない」希望に近い</li>
+        <li>弱点：<strong>1階</strong>、面積<strong>45.56㎡で一番狭い</strong>（和6＋洋5.7＋DK5.7）、<strong>即入居可</strong>で1月中旬まで待てるか、ペット記載なし</li>
+      </ul>
+      <p class="note">出典：<a href="https://suumo.jp/chintai/bc_100529922198/">SUUMO アルスールふじみ野（エイブルふじみ野店）</a> 情報更新日 2026/11/04</p>
+    </div>
+    <div class="card new2">
+      <h3>サニー桜ヶ丘（2階・最上階） ― 部屋の中身は一番良い</h3>
+      <p class="price">月額 約97,380円 <small>／ 初期 約33.1万円＋保険</small></p>
+      <p><span class="tag good">2022年築で一番新しい</span><span class="tag good">59.14㎡で一番広い</span><span class="tag good">設備は全7件最多</span><span class="tag bad">駅 徒歩29分</span></p>
+      <ul>
+        <li>2022年8月築は、次に新しいミルフィーユ（2005年）より17年も新しい。洋6.2＋洋6＋LDK10.2の2LDK型で、広く暮らす実感が一番強いはず</li>
+        <li>エアコン2台、浴室乾燥、ウォークインクロゼット、宅配ボックス、防犯カメラ、3口システムキッチンまで付く物件は他にない。面積あたり月額は約1,647円／㎡で最安</li>
+        <li>見かけは月94,000円だが、24時間サポート1,500円＋保証月額2％で実質は約97,380円。オーキッド（参考）より高くなる</li>
+        <li>買い物は徒歩で足りる（訂正済み）：セブン徒歩3分、ファミマ徒歩4分、スーパーのコモディイイダ徒歩7分。閑静な住宅街で、桜ケ丘公園が隣</li>
+        <li>最大の弱点：<strong>ふじみ野駅徒歩29分、上福岡43分</strong>で徒歩の条件は超える。ただし最寄りの西原住宅入口バス停まで徒歩数分で、東武バスがふじみ野駅西口まで1時間に数本ある。駅への足をバスに置けるかが論点。木造アパートで、オートロックの記載もない</li>
+      </ul>
+      <p class="note">出典：<a href="https://suumo.jp/chintai/bc_100534866754/">SUUMO サニー桜ヶ丘（レインボーホーム上福岡店）</a> 情報更新日 2026/11/05</p>
+    </div>
+  </div>
+  <p style="margin-top:18px;">猫の確かさでは従来候補が依然リードします。新2件はどちらもペット記載そのものがありません。猫可の明記があるのはミルフィーユ307、猫1匹まで相談の明記があるのはエスペランサです。</p>
+
+  <h2>月額ランキング（ペットなし・駐車場なし）</h2>
+  <div class="scroll">
+  <table class="rank">
+    <thead><tr><th>順位</th><th>物件</th><th>月額</th><th>内訳</th><th>広さあたり</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>アルスールふじみ野105</strong></td><td class="num">85,000円</td><td>79,000＋6,000。追加の月額固定費なし、ネット無料</td><td><div class="bar"><div style="width:82%"></div></div>約1,866円/㎡</td></tr>
+      <tr><td>2</td><td>オーキッドグランデ206（参考・募集終了）</td><td class="num">96,710円</td><td>87,000＋8,500＋Nサポート1,210</td><td><div class="bar"><div style="width:93%"></div></div>約1,844円/㎡</td></tr>
+      <tr><td>3</td><td><strong>サニー桜ヶ丘</strong>（新規）</td><td class="num">約97,380円</td><td>90,000＋4,000＋サポート1,500＋保証 約1,880（2％）</td><td><div class="bar"><div style="width:94%"></div></div>約1,647円/㎡（最安）</td></tr>
+      <tr><td>4</td><td>ミルフィーユ211</td><td class="num">約98,500円</td><td>91,000＋6,000＋保険1,300＋町会費200（95,000円版は約102,500円）</td><td><div class="bar"><div style="width:95%"></div></div>約1,915円/㎡</td></tr>
+      <tr><td>5</td><td>ミルフィーユ307</td><td class="num">約99,500〜100,500円</td><td>92,000〜93,000＋6,000＋保険1,300＋町会費200</td><td><div class="bar"><div style="width:97%"></div></div>約1,954円/㎡</td></tr>
+      <tr><td>6</td><td>エスペランサ209</td><td class="num">約101,926円</td><td>95,000＋3,000＋倶楽部2,420＋保証 約1,506</td><td><div class="bar"><div style="width:98%"></div></div>約1,840円/㎡</td></tr>
+      <tr><td>7</td><td>エスペランサ307</td><td class="num">約103,956円</td><td>97,000＋3,000＋倶楽部2,420＋保証 約1,536</td><td><div class="bar"><div style="width:100%"></div></div>約1,876円/㎡</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>初期費用ランキング（前家賃1ヶ月分を含む）</h2>
+  <div class="scroll">
+  <table class="rank">
+    <thead><tr><th>順位</th><th>物件</th><th>初期費用の概算</th><th>主な内訳</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><strong>アルスールふじみ野105</strong></td><td class="num">約233,650円＋保険</td><td>敷0、礼49,500、仲介43,450（55％）、鍵13,200、保証初回42,500（50％）、前月85,000。損保は「要」で金額未記載</td></tr>
+      <tr><td>2</td><td><strong>サニー桜ヶ丘</strong>（新規）</td><td class="num">約330,880円＋保険</td><td>敷0、礼90,000、仲介49,500（0.55ヶ月）、保証初回 約94,000（総賃料の100％）、前月 約97,380。損保は「要」で金額未記載。更新料は新賃料1ヶ月分</td></tr>
+      <tr><td>3</td><td>エスペランサ209</td><td class="num">約336,330円</td><td>敷0・礼0、初期諸費用81,200、仲介104,500、保証初回 約50,210、前月 約100,420</td></tr>
+      <tr><td>4</td><td>エスペランサ307</td><td class="num">約341,530円</td><td>209と同構造</td></tr>
+      <tr><td>5</td><td>ミルフィーユ307</td><td class="num">約380,850円</td><td>93,000円版。敷50,000、礼139,500、鍵29,700、保証10,000、仲介51,150、前月100,500</td></tr>
+      <tr><td>6</td><td>ミルフィーユ211</td><td class="num">約415,750円</td><td>91,000円版・エイブル仲介55％。取扱店で約365,800〜465,800円まで動く</td></tr>
+      <tr><td>7</td><td>オーキッドグランデ206（参考）</td><td class="num">722,640円</td><td>1月中旬・法人換算の交渉前ベース。礼金の法人追加分を含む</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="note">アルスールの店舗差：Yahoo／アパマンショップ志木店版は礼金なしの代わりに初期諸費用62,700円（清掃・鍵など）と保証月額1,200円があります。契約する店舗で総額が変わるため、電話では店舗名と掲載条件を固定して総額を聞いてください。</p>
+
+  <h2>本体比較表（項目別・全7物件）</h2>
+  <p class="note">表は横にスクロールできます。新しく加えた2件の列は見出しの色が違います。</p>
+  <div class="scroll">
+  <table>
+    <thead>
+      <tr>
+        <th>項目</th>
+        <th class="newcol">アルスール105</th>
+        <th class="newcol2">サニー桜ヶ丘（新規）</th>
+        <th>オーキッド206（参考）</th>
+        <th>ミルフィーユ211</th>
+        <th>ミルフィーユ307</th>
+        <th>エスペランサ209</th>
+        <th>エスペランサ307</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><th>所在地</th><td>富士見市ふじみ野西1</td><td>ふじみ野市桜ケ丘3</td><td>富士見市ふじみ野東3-15-1</td><td>ふじみ野市駒林</td><td>ふじみ野市駒林</td><td>富士見市ふじみ野東1-5-1</td><td>同左</td></tr>
+      <tr><th>最寄り駅</th><td><strong>ふじみ野 徒歩4分</strong></td><td><span class="no">ふじみ野 徒歩29分／上福岡 徒歩43分</span></td><td>ふじみ野 徒歩9分</td><td>ふじみ野 徒歩19分</td><td>ふじみ野 徒歩19分</td><td><strong>ふじみ野 徒歩2分</strong></td><td><strong>ふじみ野 徒歩2分</strong></td></tr>
+      <tr><th>間取り・面積</th><td>2DK 45.56㎡（和6・洋5.7・DK5.7）</td><td>2LDK 59.14㎡（洋6.2・洋6・LDK10.2）</td><td>2DK 52.44㎡</td><td>2LDK 51.42㎡</td><td>2LDK 51.42㎡</td><td>2LDK 55.4㎡</td><td>3DK 55.4㎡</td></tr>
+      <tr><th>階／建物</th><td>1階／5階建</td><td>2階（最上階・角）／2階建</td><td>2階／5階建</td><td>2階／3階建</td><td>3階／3階建</td><td>2階／4階建</td><td>3階／4階建</td></tr>
+      <tr><th>築年・構造</th><td>2001年・RC</td><td><strong>2022年・木造アパート（一番新しい）</strong></td><td>1999年・RC</td><td>2005年・RC</td><td>2005年・RC</td><td>1995年・RC</td><td>1995年・RC</td></tr>
+      <tr><th>向き</th><td>南西・角部屋</td><td>記載なし・角部屋</td><td>南</td><td>西</td><td>－</td><td>南</td><td>南</td></tr>
+      <tr><th>月額（試算）</th><td class="num">85,000円</td><td class="num">約97,380円</td><td class="num">96,710円</td><td class="num">約98,500円</td><td class="num">約99,500〜100,500円</td><td class="num">約101,926円</td><td class="num">約103,956円</td></tr>
+      <tr><th>初期（試算）</th><td class="num">約23.4万円＋保険</td><td class="num">約33.1万円＋保険</td><td class="num">72.3万円（交渉前）</td><td class="num">約41.6万円</td><td class="num">約38.1万円</td><td class="num">約33.6万円</td><td class="num">約34.2万円</td></tr>
+      <tr><th>オートロック</th><td class="yes">あり</td><td class="no">なし（記載なし）</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td><td class="no">なし</td><td class="no">なし</td></tr>
+      <tr><th>エレベーター</th><td class="yes">あり（他媒体の同部屋掲載で確認。このページには記載なし）</td><td class="no">なし（2階建、記載なし）</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td><td class="no">なし</td><td class="no">なし</td></tr>
+      <tr><th>宅配ボックス</th><td class="unk">記載なし</td><td class="yes">あり</td><td>－</td><td class="yes">あり</td><td class="yes">あり</td><td class="no">なし</td><td class="no">なし</td></tr>
+      <tr><th>防犯カメラ</th><td class="unk">記載なし</td><td class="yes">あり</td><td>－</td><td>－</td><td>－</td><td>－</td><td>－</td></tr>
+      <tr><th>追い焚き</th><td class="yes">あり（オートバス）</td><td class="yes">あり</td><td>－</td><td class="yes">あり</td><td class="yes">あり</td><td class="no">なし</td><td class="yes">あり</td></tr>
+      <tr><th>浴室乾燥機</th><td class="unk">記載なし</td><td class="yes">あり</td><td>－</td><td>－</td><td>－</td><td>－</td><td>－</td></tr>
+      <tr><th>温水洗浄便座</th><td class="unk">記載なし</td><td class="yes">あり</td><td>－</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td></tr>
+      <tr><th>洗面所独立</th><td class="yes">あり</td><td class="yes">あり</td><td>－</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td><td class="yes">あり</td></tr>
+      <tr><th>インターネット</th><td class="yes">無料（使い放題）</td><td class="yes">無料（専用回線）</td><td class="yes">無料</td><td>接続環境どまり</td><td>接続環境どまり（光配線不可の備考）</td><td class="yes">無料（J:COM）</td><td class="yes">無料（J:COM）</td></tr>
+      <tr><th>ガス</th><td class="yes">都市ガス</td><td class="unk">明記なし（要確認）</td><td class="unk">未確認</td><td>プロパン</td><td>プロパン</td><td>プロパン</td><td>プロパン</td></tr>
+      <tr><th>周辺（買い物）</th><td>コンビニ210m、トナリエ360m、イオン770m</td><td>セブン171m（徒歩3分）、ファミマ242m（徒歩4分）、ローソン458m、コモディイイダ519m（徒歩7分）。閑静な住宅街、桜ケ丘公園が隣</td><td>ヤオコー160m、コンビニ260m</td><td>－</td><td>－</td><td>－</td><td>－</td></tr>
+      <tr><th>駐車場</th><td>敷地内は記載なし。近隣あり（料金要確認）</td><td>敷地内 6,600円</td><td>敷地内 11,000円</td><td>敷地内 5,500円</td><td>敷地内 5,500円</td><td>敷地内 9,900円（空き表示なし）</td><td>同左</td></tr>
+      <tr><th>ペット（将来の猫）</th><td class="unk">記載なし</td><td class="unk">記載なし</td><td>猫1匹まで相談、飼育時敷金＋1ヶ月</td><td>相談可（猫の明記なし）</td><td class="yes">猫2匹までの明記あり</td><td>猫1匹まで相談、飼育時敷金＋1ヶ月</td><td>同左</td></tr>
+      <tr><th>法人契約</th><td class="unk">記載なし（要確認）</td><td class="unk">記載なし（要確認。取扱店は法人対応をうたうが物件自体は未確認）</td><td class="yes">可（礼金1ヶ月追加が確定）</td><td class="unk">記載なし（要確認）</td><td class="unk">記載なし（要確認）</td><td class="unk">記載なし（要確認）</td><td class="unk">記載なし（要確認）</td></tr>
+      <tr><th>入居時期</th><td class="unk">即入居可</td><td>2026年12月中旬</td><td>2026年12月中旬（終了）</td><td>媒体で相違（11月上旬／12月上旬）</td><td>媒体で相違（即／12月中旬）</td><td class="yes">2027年1月下旬</td><td>2026年12月上旬</td></tr>
+      <tr><th>二人入居</th><td class="yes">可</td><td class="yes">可</td><td class="yes">可</td><td class="yes">可</td><td class="yes">可</td><td class="yes">可</td><td class="yes">可</td></tr>
+      <tr><th>取扱い</th><td>エイブルふじみ野店<br>049-262-8300</td><td>レインボーホーム上福岡店<br>049-265-3077</td><td>ハウスメイトふじみ野店</td><td>店舗で相違</td><td>店舗で相違</td><td>レックス大興 川越店</td><td>同左</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>サニー桜ヶ丘の詳しい分析</h2>
+  <p>良い点：2022年8月築は次に新しいミルフィーユ（2005年）より17年も新しく、内装と設備の鮮度は別格のはずです。59.14㎡は全7件最大で、洋6.2＋洋6＋LDK10.2の2LDK型なので、DK型のアルスールやエスペランサ307より「広く暮らす」実感が強い。エアコン2台、浴室乾燥、ウォークインクロゼット、宅配ボックス、防犯カメラまで付く物件は他にありません。駐車場も敷地内6,600円と安い部類。入居は2026年12月中旬で、即入居のアルスールよりは1月中旬に寄せやすい可能性があります。</p>
+  <p>周辺の訂正（2026年11月6日夜）：当初、SUUMOの周辺情報に載っていた別のセブンイレブン（大井町東久保店）までの1,605mを最寄りと誤認して「コンビニまで1,605m、徒歩生活は一番不便」と書きましたが、これは誤りです。HOME'Sの建物ページと地図で確認した実際の周辺は、セブンイレブンふじみ野桜ケ丘店171m（徒歩3分）、ファミリーマート三芳上富店242m（徒歩4分）、ローソンふじみ野高校前店458m（徒歩6分）、スーパーのコモディイイダ大井店519m（徒歩7分）、ケーズデンキ868m（徒歩11分）。閑静な住宅街で、桜ケ丘公園が隣にあります。日常の買い物は徒歩で十分足ります。</p>
+  <p>弱い点：駅徒歩29分は条件（徒歩20分以内、バス可）を徒歩では大きく超え、上福岡は43分。ただし駅への足はゼロではなく、最寄りの西原住宅入口バス停（セブンの少し先、徒歩数分）から東武バスふじ01・ふじ02がふじみ野駅西口行きで1時間に数本あり、乗車は十数分程度と見られます（正確なバス停までの距離と朝の混み具合は要現地確認）。つまり弱点は「駅まで歩けない」ではなく「毎日の駅アクセスがバスの時刻にひも付く」ことに絞られます。木造アパートなので、RC造の他物件と比べて遮音や建物の質感は見劣りしやすい。オートロックの記載もありません。保証会社も初回100％＋月次2％と全7件で一番重く、更新料も新賃料1ヶ月分かかります。ペットと法人は物件としての記載がありません。</p>
+  <p><strong>判定の分かれ目：</strong>残る問題は駅アクセスをバス前提にできるかどうかに絞られました。バス停までの実際の道と朝の本数、雨の日の動き方を11月9日に見られるかが決め手になります。</p>
+
+  <h2>電話で確認する順番（新2件）</h2>
+  <div class="check">
+    <h3 style="margin-top:0;">1. アルスールふじみ野105 ― エイブルふじみ野店 049-262-8300（9時半〜17時半、定休なし）</h3>
+    <ul>
+      <li>法人契約の可否と追加条件／猫の将来飼育</li>
+      <li>1月中旬入居まで待てるか（家賃発生日の扱い）／11月9日に内見できるか</li>
+      <li>損保の金額／駐車場は近隣でいくらか・空きはあるか／保証は月額なしで合っているか／礼金49,500円は確定か</li>
+    </ul>
+    <h3>2. サニー桜ヶ丘 ― レインボーホーム上福岡店 049-265-3077（9時半〜18時半、水曜定休）</h3>
+    <ul>
+      <li>法人契約の可否と追加条件／猫の将来飼育</li>
+      <li>2026年12月中旬の開始を2027年1月中旬に寄せられるか／11月9日に内見できるか</li>
+      <li>損保の金額／駐車場の空き／西原住宅入口バス停までの正確な距離と朝の本数／ガス種別（買い物環境は確認済み：セブン徒歩3分、ファミマ徒歩4分、コモディイイダ徒歩7分）</li>
+    </ul>
+  </div>
+
+  <h2>総評（物件ごと）</h2>
+
+  <div class="review">
+    <h3>アルスールふじみ野105（1階）</h3>
+    <p><strong>メリット：</strong>月額85,000円で全7件最安、初期も最安級。駅徒歩4分。オートロック、エレベーター、追い焚き、独立洗面所、ネット無料、都市ガスと設備の取りこぼしが一番少ない。玄関ホールがあり、エントランスの希望にも近い。コンビニ210m、トナリエ360mと買い物も困らない。</p>
+    <p><strong>デメリット：</strong>面積45.56㎡で一番狭く、和室＋DK型でLDKがない。1階で日当たりや防犯、眺望は内見頼み。即入居可で1月中旬まで待てるか不透明。ペット記載なし。取扱店で条件が割れる。駐車場は敷地内になく近隣頼み。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>価格・駅・設備が同時に成立していること。月85,000円で徒歩4分とオートロック付きは他にない。</div>
+      <div class="minus"><strong>一番の欠点</strong>狭さ。条件の下限ぎりぎりの45.56㎡で、夫婦で広く暮らしたい希望とは逆方向。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>サニー桜ヶ丘（2階）</h3>
+    <p><strong>メリット：</strong>2022年築で圧倒的に新しく、59.14㎡で一番広い。設備は全7件最多（浴室乾燥、ウォークインクロゼット、宅配ボックス、防犯カメラ、エアコン2台、3口システムキッチン）。最上階の角部屋。面積あたり月額は最安。駐車場6,600円。入居は12月中旬。買い物も徒歩で足りる（セブン徒歩3分、ファミマ徒歩4分、スーパーのコモディイイダ徒歩7分）うえに、閑静な住宅街で桜ケ丘公園が隣という住環境の良さもある。</p>
+    <p><strong>デメリット：</strong>駅徒歩29分で徒歩の条件を大きく超える。駅への毎日の足は、西原住宅入口バス停（徒歩数分）からの東武バスに頼る形になる。木造アパートで遮音や質感はRCに劣りやすい。オートロック記載なし。保証が初回100％＋月次2％と一番重く、更新料1ヶ月。ペットと法人の物件記載なし。向きの記載もなし。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>部屋の中身そのもの。新しさ、広さ、設備で彼女の「広くてきれいな部屋」に最も合う。買い物の近さ（セブン徒歩3分、スーパー徒歩7分）も揃った。</div>
+      <div class="minus"><strong>一番の欠点</strong>駅徒歩29分という立地。買い物は問題ないが、駅だけは歩くには遠く、通勤の足がバスの時刻にひも付く。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>オーキッドグランデふじみ野206（参考・募集終了）</h3>
+    <p><strong>メリット：</strong>月額96,710円、駅9分、52.44㎡、オートロック、エレベーター、ネット無料と総合バランスが一番良く、今も全比較の基準点。エントランスの希望にも最も近かった。</p>
+    <p><strong>デメリット：</strong>先行申込が入って募集終了。初期費用は法人換算722,640円と突出して高い。礼金の法人追加分やオプションなど、契約条件の重さも一番だった。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>総合バランス。価格、駅、広さ、設備、きれいさで大きな穴がなかった。</div>
+      <div class="minus"><strong>一番の欠点</strong>もう借りられないこと。次点で初期費用の高さ。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>ミルフィーユふじみ野弐番館211（2階）</h3>
+    <p><strong>メリット：</strong>オートロック、エレベーター、宅配ボックス、玄関ホール、追い焚き、システムキッチンと共用・室内の設備がそろう。2005年築RCで建物の質感も良い部類。駐車場5,500円は最安。月額約98,500円は中位。</p>
+    <p><strong>デメリット：</strong>駅徒歩19分。賃料（91,000円／95,000円）、敷金、入居時期が媒体と取扱店で割れて確定しない。礼金1.5ヶ月で初期が高い。プロパンガス。インターネットは無料ではなく接続環境どまり。211自体には猫の明記がない。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>設備とエントランスの完成度。希望する住まいの形に一番近い建物。</div>
+      <div class="minus"><strong>一番の欠点</strong>条件が割れて確定しないこと。料金も時期も、電話で正解を固定するまで判断材料にならない。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>ミルフィーユふじみ野弐番館307（3階）</h3>
+    <p><strong>メリット：</strong>211と同じ建物の良さに加え、猫2匹まで飼育可能という明記があり、将来の猫が全7件で最も確実。仲介手数料0.55ヶ月と表示が比較的はっきりしている。初期も211より安い試算。</p>
+    <p><strong>デメリット：</strong>駅徒歩19分は同じ。入居時期が即と12月中旬で割れる。プロパンガス。備考に光配線不可とあり、ネット環境が弱い。初期は約38万円と安くはない。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>猫2匹までの明記。ペットを諦めないなら、この1点で今も最上位級。</div>
+      <div class="minus"><strong>一番の欠点</strong>駅距離とネットの弱さ。19分に加えて光配線不可は、在宅時間の長い暮らしでは地味に効く。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>エスペランサふじみ野209（2階）</h3>
+    <p><strong>メリット：</strong>駅徒歩2分は全7件最速。55.4㎡と広く、敷金・礼金なしで初期約33.6万円と安い部類。猫1匹まで相談の明記がある。入居が2027年1月下旬で、希望の1月中旬に最も近い。</p>
+    <p><strong>デメリット：</strong>オートロック、エレベーター、宅配ボックスがなく、エントランスの希望と逆。1995年築で古い部類。追い焚きなし。プロパンガス。入居者倶楽部と保証月額で月額は約101,926円まで上がる。駐車場9,900円で空き表示なし。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>駅2分と入居時期。通勤の近さと、1月下旬という時期の合い方は全7件で一番希望に寄っている。</div>
+      <div class="minus"><strong>一番の欠点</strong>セキュリティと共用設備の弱さ。オートロックなしは、扉のあるエントランスを希望する条件と正反対。</div>
+    </div>
+  </div>
+
+  <div class="review">
+    <h3>エスペランサふじみ野307（3階）</h3>
+    <p><strong>メリット：</strong>駅徒歩2分で3DK、55.4㎡。追い焚きがある分209より室内設備は上。猫1匹まで相談の明記あり。初期約34.2万円と敷礼なしの安さも209と同水準。</p>
+    <p><strong>デメリット：</strong>月額約103,956円で全7件最高。入居が2026年12月上旬と早く、1月中旬まで待てるか交渉が要る。エレベーターなしの3階。オートロックなし。プロパンガス。</p>
+    <div class="big">
+      <div class="plus"><strong>一番の利点</strong>駅2分で部屋数が一番多いこと。55.4㎡の3DKは、荷物や将来の使い方に余裕がある。</div>
+      <div class="minus"><strong>一番の欠点</strong>月額の高さと入居時期の早さ。一番高い月額を、一番早くから払い始める可能性がある組み合わせ。</div>
+    </div>
+  </div>
+
+  <div class="final">
+    <h3>全体の総評</h3>
+    <p>候補は性格で3つに分かれます。価格と駅と設備の実務で選ぶならアルスール105。部屋の新しさと広さで選ぶならサニー桜ヶ丘で、買い物は徒歩圏で足りており、残る論点は駅アクセスをバス前提にできるかだけになりました。将来の猫を外せないなら、猫の明記があるミルフィーユ307とエスペランサ209／307が残ります。オーキッドは今も基準点で、この3つのどれも「オーキッドの完全な代わり」にはなっておらず、何を優先するかで答えが変わります。</p>
+    <p>次の一手は電話2本に絞れます。アルスールには法人・猫・1月中旬まで待てるか・駐車場。サニーには法人・猫・12月中旬開始を1月中旬に寄せられるか・バス停までの正確な距離と朝の本数。この結果で、11月9日の内見先を決めるのが一番早いです。</p>
+  </div>
+
+  <h2>未確認（共通）</h2>
+  <ul>
+    <li>新2件とも、法人契約・猫の可否・1月中旬入居の可否は掲載だけでは決まらない</li>
+    <li>アルスールとサニーの損保金額、サニーのガス種別、西原住宅入口バス停までの正確な距離と朝の混み具合</li>
+    <li>内装の実際のきれいさは未確認。築年からの推測で判断しないこと</li>
+  </ul>
+  <p class="note">このページの数値は2026年11月6日時点の掲載と試算です。契約前に必ず取扱店で総額を再確認してください。文章版（Markdown）も同じフォルダにあります：比較_全7物件_2026-11-06.md</p>
+</main>
+</body>
+</html>
